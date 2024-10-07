@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp.sp
 "testcode\startup_stm32f427xx.o"
+"testcode\callback.o"
 "testcode\main.o"
 "testcode\gpio.o"
 "testcode\tim.o"

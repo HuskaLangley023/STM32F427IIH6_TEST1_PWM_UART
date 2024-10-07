@@ -90,20 +90,19 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_TIM_Base_Start_IT(&htim6);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
-    HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
-    HAL_Delay(500);
+    while (1)
+    {
+     // HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
+      //HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  }
+    }
   /* USER CODE END 3 */
 }
 
