@@ -6,6 +6,6 @@
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if(htim->Instance == TIM6) {
-        HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
+        HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
     }
 }

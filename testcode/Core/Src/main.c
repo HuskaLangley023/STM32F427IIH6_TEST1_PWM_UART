@@ -91,6 +91,7 @@ int main(void)
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim6);
+  HAL_TIM_PWM_Start_IT(&htim1,TIM_CHANNEL_2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -98,7 +99,7 @@ int main(void)
     while (1)
     {
      // HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
-      //HAL_Delay(500);
+     // HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
