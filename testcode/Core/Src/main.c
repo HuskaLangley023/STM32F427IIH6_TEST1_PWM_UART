@@ -19,11 +19,13 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "tim.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+  uint8_t rxData[100];
+  uint8_t txData[100]={'h','e','l','l','o'};
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -82,16 +84,19 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  // uint8_t txData[100]={11,2,3,4,5,6};
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
   MX_TIM6_Init();
+  MX_UART7_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start_IT(&htim6);
-  HAL_TIM_PWM_Start_IT(&htim1,TIM_CHANNEL_2);
+  HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
+  HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
+  HAL_UART_Receive_IT(&huart7,rxData,sizeof(rxData));
+  //HAL_UART_Transmit_IT(&huart7,txData,sizeof(txData));
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -99,7 +104,7 @@ int main(void)
     while (1)
     {
      // HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
-     // HAL_Delay(500);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
