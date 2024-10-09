@@ -25,52 +25,19 @@
   <component name="ChangeListManager">
     <list default="true" id="4851cd68-007a-4c7a-8a23-150388005109" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/callback.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/callback.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode.uvguix.zhu_y" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode.uvguix.zhu_y" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/callback.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/callback.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/callback.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/callback.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/gpio.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/main.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/main.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_cortex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_cortex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_dma.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_dma.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_dma_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_dma_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_exti.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_exti.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_flash.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_flash.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_flash_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_flash_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_flash_ramfunc.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_flash_ramfunc.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_gpio.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_msp.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_msp.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_pwr.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_pwr.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_pwr_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_pwr_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_rcc.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_rcc.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_rcc_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_rcc_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_tim.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_tim.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_tim_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_hal_tim_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_it.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_it.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/stm32f4xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/system_stm32f4xx.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/system_stm32f4xx.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.axf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.build_log.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.lnp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/testcode_testcode.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/testcode_testcode.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/tim.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/tim.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/tim.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/testcode/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/testcode/usart.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcode.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/testcode.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,10 +98,22 @@
       <workItem from="1728290019526" duration="542000" />
       <workItem from="1728317866697" duration="3455000" />
       <workItem from="1728391169999" duration="2881000" />
+      <workItem from="1728477047543" duration="6804000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/callback.c</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

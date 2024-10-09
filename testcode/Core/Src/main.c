@@ -24,8 +24,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-  uint8_t rxData[100];
-  uint8_t txData[100]={'h','e','l','l','o'};
+  uint8_t rxData[1];
+  uint8_t txData[1];
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,7 +95,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_GPIO_TogglePin(LED_G_GPIO_Port,LED_G_Pin);
   HAL_GPIO_TogglePin(LED_R_GPIO_Port,LED_R_Pin);
-  HAL_UART_Receive_IT(&huart7,rxData,sizeof(rxData));
+  HAL_UART_Receive_IT(&huart7,rxData,1);
+  // txData = "12334";
   //HAL_UART_Transmit_IT(&huart7,txData,sizeof(txData));
   /* USER CODE END 2 */
 
